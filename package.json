@@ -1,0 +1,22 @@
+{
+  "name": "dropbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "adanjz <adanzweig@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "dropbox": "^10.34.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "isomorphic-fetch": "^3.0.0",
+    "multer": "^1.4.5-lts.1",
+    "pug": "^3.0.3"
+  }
+}

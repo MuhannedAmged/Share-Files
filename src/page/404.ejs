@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Not Found</title>
+  <link rel="icon" type="image/*" href="./public/img/documentation.png">
+  <link rel="stylesheet" href="../public/css/globalStyles.css">
+  <style>
+    .container {
+      color: #fff;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 13px;
+    }
+
+    p {
+      font-size: 19px;
+    }
+    @media (max-width: 880px) {
+      .container {
+        margin: 0 30px;
+      }
+      h1 {
+        font-size: 32px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  </style>
+  <!-- <link rel="stylesheet" href="../public/css/mainPage.css"> -->
+</head>
+
+<body>
+
+  <div id="background"></div>
+  <div class="container">
+    <h1>404 - Not Found</h1>
+    <p>The requested URL <strong>
+        <%= url %>
+      </strong> was not found on this server.</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  <script>
+    VANTA.NET({
+      el: "#background",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 10.00,
+      minWidth: 10.00,
+      scale: 1.00,
+      scaleMobile: 1.00
+    })
+  </script>
+  </script>
+
+</body>
+
+</html>
